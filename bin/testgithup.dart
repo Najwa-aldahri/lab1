@@ -1,5 +1,5 @@
-import 'package:testgithup/testgithup.dart' as testgithup;
+import 'sum.dart';
 
 void main(List<String> arguments) {
-  print('Hello world: ${testgithup.calculate()}!');
+  sum(num1: 2, num2: 3);
 }
